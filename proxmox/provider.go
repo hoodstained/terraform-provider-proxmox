@@ -212,7 +212,6 @@ func providerConfigure(d *schema.ResourceData) (interface{}, error) {
 		"VM.Config.Network",
 		"VM.Config.Options",
 		"VM.Migrate",
-		"VM.Monitor",
 		"VM.PowerMgmt",
 	}
 	var id string
